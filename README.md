@@ -49,6 +49,8 @@ convergence_threshold = 1e-6
 descent(initial_parameters, initial_parameters, learning_rate, convergence_threshold)
 
 ```
+
+
 # Adaptive Learning Rate in Gradient Descent
 
 In the context of optimization algorithms like gradient descent, the learning rate is a crucial hyperparameter that determines the step size taken during each iteration. An adaptive learning rate adjusts itself during the optimization process based on the behavior of the objective function. This adaptation is designed to improve convergence and stability, especially in scenarios where a fixed learning rate may be suboptimal.
@@ -69,7 +71,8 @@ We can experiment with different threshold values and adapt the mechanism to sui
 and there is a vast scope of improvement.
 
 
-## Problem when \( w[1] \) becomes zero and gradient also becomes zero
+
+# Problem when \( w[1] \) becomes zero and gradient also becomes zero
 
 If \( w[1] \) becomes zero, and the gradient with respect to \( w[1] \) becomes zero as well, it can introduce challenges in the optimization process. In particular, it can lead to a situation where the algorithm struggles to make further progress in the \( w[1] \) direction, potentially causing slow convergence or convergence to a suboptimal solution.
 
